@@ -15,7 +15,7 @@ class Start_App:
 		'''
 		'''
 		self.cursor=self.connect.set_db_connection()
-		self.xml_read=open("practice/Start_Gui.xml","r").read()
+		self.xml_read=open("layout/Start_Gui.xml","r").read()
 		self.droid.fullShow(self.xml_read)
 		self.eventLoop()
 		self.connect.connection.commit()

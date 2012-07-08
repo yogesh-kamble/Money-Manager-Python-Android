@@ -18,7 +18,7 @@ class DataReport:
 		
 	def start_gui(self,cursor):
 		
-		xml=open("practice/data_report.xml","r").read()
+		xml=open("layout/data_report.xml","r").read()
 		data_info_tuple_list=self.get_data_report(cursor)
 		print data_info_tuple_list
 		#[(u'Shopping', 730), (u'Mobile', 30)]
@@ -36,7 +36,7 @@ class DataReport:
 		print data_list
 		
 		self.droid.fullSetList("mylist",data_list)
-		pdb.set_trace()
+		#pdb.set_trace()
 		while True:
 			result=self.droid.eventWait().result
 			if result["name"]=="key":
