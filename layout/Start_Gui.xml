@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/widget0"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+						android:id="@+id/background"
+						android:orientation="vertical" android:layout_width="match_parent"
+						android:layout_height="match_parent" android:background="#ff000000">
+<Button
+	android:id="@+id/wid"
+	android:layout_width="250dp"
+	android:layout_height="wrap_content"
+	android:text="Add Expenses"
+	android:layout_x="33dp"
+	android:layout_y="88dp" />
+<Button
+	android:id="@+id/view"
+	android:layout_width="240dp"
+	android:layout_height="wrap_content"
+	android:text="View Expenses"
+	android:layout_x="33dp"
+	android:layout_y="218dp" />
+
+
+
+ <ListView
+        android:id="@+id/mylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+ </LinearLayout>
+
+</LinearLayout>

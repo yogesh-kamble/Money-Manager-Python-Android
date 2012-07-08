@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/data_report_layout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+						android:id="@+id/data_report_nested"
+						android:orientation="vertical" android:layout_width="match_parent"
+						android:layout_height="match_parent" android:background="#ff000000">
+
+
+<ListView
+        android:id="@+id/mylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:textSize="14sp" />
+ </ListView>
+ </LinearLayout>
+ </LinearLayout>
